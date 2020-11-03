@@ -18,4 +18,7 @@ public class Functions {
             return mid + "√" + a;
         }
     }
+    public static int sum(int a, int b) {
+        return a + b;
+    }
 }
