@@ -35,4 +35,28 @@ public class Functions {
         b = h * h - a * a;
         return sqrt_string(b);
     }
+    //Method that translates from the octal number system to the decimal number system
+    public static String from_oct_to_bin(String a) {
+        return Integer.toBinaryString(Integer.parseInt(a, 8));
+    }
+    //Method that translates from the octal number system to the decimal number system
+    public static String from_oct_to_hex(String a) {
+        return Integer.toHexString(Integer.parseInt(a, 8));
+    }
+    //Method that translates from the octal number system to the decimal number system
+    public static String from_hex_to_oct(String a) {
+        return Integer.toOctalString(Integer.parseInt(a, 16));
+    }
+    //Method that translates from the octal number system to the decimal number system
+    public static String from_hex_to_bin(String a) {
+        return Integer.toBinaryString(Integer.parseInt(a, 16));
+    }
+    //Method that translates from the octal number system to the decimal number system
+    public static String from_bin_to_oct(String a) {
+        return Integer.toOctalString(Integer.parseInt(a, 2));
+    }
+    //Method that translates from the octal number system to the decimal number system
+    public static String from_bin_to_hex(String a) {
+        return Integer.toHexString(Integer.parseInt(a, 2));
+    }
 }
